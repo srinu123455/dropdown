@@ -143,7 +143,10 @@ input{
           for(var i=0;i< data.length;i++){
             tbbody += "<tr>";
               tbbody += "<td>"+ data[i].id +"<td>";
-                tbbody += "<td>"+ data[i].start_date +"<td>";
+                tbbody += "<td>"+ data[i].department_id +"<td>";
+                    tbbody += "<td>"+ data[i].employee_type_id +"<td>";
+                        tbbody += "<td>"+ data[i].work_location_id +"<td>";
+                            tbbody += "<td>"+ data[i].start_date +"<td>";
                 tbbody += "<tr>";
 
           } $("#ajax").html(tbbody);

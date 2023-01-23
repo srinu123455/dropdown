@@ -34,3 +34,6 @@ Route::get('createdate', function () {
 
 Route::get('date','companyworklocationcontroller@date');
 Route::post('selectdropdowndata','companyworklocationcontroller@selectdropdowndata');
+
+
+Route::get('Autofilldropdowndata','companyworklocationcontroller@Dropdown');
